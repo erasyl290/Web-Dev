@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html>
-    <header>
+    <head>
         <meta charset="utf-8">
         <meta lang="RU">
         <title>Facebook (login copy)</title>
         <style>
             body {
                 background-color: #f0f2f5;
-                width: 994px;
-                margin: auto;
                 font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
                 line-height: 32px;
             }
-            section {
+            main {
+                width: 994px;
+                margin: auto;
                 padding-top: 92px;
-                padding-bottom: 112px;
+                padding-bottom: 132px;
             }
             a {
                 text-decoration: none;
@@ -124,17 +124,50 @@
                 font-weight: 600;
                 color: black;
             }
+            #background-footer {
+                background-color: white;
+                padding-top: 20px;
+            }
+            footer {
+                color: #737373;
+                font-size: 12px;
+                margin: auto;
+                width: 980px;
+            }
+            footer ul {
+                list-style-type: none;
+                padding: 0;
+                display: flex;
+                flex-wrap: wrap;
+            }
+            #lang {
+                margin: 0;
+            }
+            #lang li {
+                padding-right: 10px;
+            }
+            #contentCurve {
+                border-bottom: 1px solid #dddfe2;
+            }
+            #footer-nav {
+                line-height: 1.6;
+                margin-left: -20px;
+            }
+            #footer-nav li {
+                padding-left: 20px;
+            }
         </style>
-    </header>
+    </head>
 
     <body>
-        <section>
+        <main>
             <div id="facebook-title">
                 <div>
                     <img src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg" alt="facebook-title" height="106">
                 </div>
                 <h2>Facebook помогает вам всегда оставаться на связи и общаться со своими знакомыми.</h2>
             </div>
+
             <div id="form">
                 <form>
                     <input class="element" type="email" placeholder="Электронный адрес или номер телефона">
@@ -149,9 +182,58 @@
                     знаменитости, музыкальной группы или компании.
                 </div>
             </div>
-        </section>
-        <footer>
 
-        </footer>
+        </main>
+        <div id="background-footer">
+            <footer>
+                <ul id="lang">
+                    <li>Русский</li>
+                    <li>English (US)</li>
+                    <li>Türkçe</li>
+                    <li>Bahasa Indonesia</li>
+                    <li>中文(简体)</li>
+                    <li>Қазақша</li>
+                    <li>Deutsch</li>
+                    <li>한국어</li>
+                    <li>Shqip</li>
+                    <li>Español</li>
+                    <li>Português (Brasil)</li>
+                </ul>
+                <div id="contentCurve"></div>
+                <ul id="footer-nav">
+                    <li>Регистрация</li>
+                    <li>Вход</li>
+                    <li>Messanger</li>
+                    <li>Facebook Lite</li>
+                    <li>Видео</li>
+                    <li>Места</li>
+                    <li>Игры</li>
+                    <li>Marketplace</li>
+                    <li>Meta Play</li>
+                    <li>Meta Store</li>
+                    <li>Meta Quest</li>
+                    <li>Imagine with Meta AI</li>
+                    <li>Instagram</li>
+                    <li>Threads</li>
+                    <li>Благотворительные акции</li>
+                    <li>Услуги</li>
+                    <li>Центр информации о выборах</li>
+                    <li>Политика конфиденциальности</li>
+                    <li>Центр конфиденциальности</li>
+                    <li>Группы</li>
+                    <li>Информация</li>
+                    <li>Создать рекламу</li>
+                    <li>Создать Страницу</li>
+                    <li>Разработчикам</li>
+                    <li>Вакансии</li>
+                    <li>Файлы cookie</li>
+                    <li>Рекламные предпочтения</li>
+                    <li>Условия использования</li>
+                    <li>Справка</li>
+                    <li>Загрузка контактов и лица, не являющиеся пользователями</li>
+                </ul>
+                <span style="font-size: 11px;">Meta © 2024</span>
+            </footer>
+        </section>
     </body>
 </html>
